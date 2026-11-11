@@ -1,0 +1,34 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  color: #213547;
+  background-color: #ffffff;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+#app {
+  display: grid;
+  min-height: 100vh;
+  place-items: center;
+  text-align: center;
+}
+
+button {
+  padding: 0.6rem 1.2rem;
+  border: 1px solid #42b883;
+  border-radius: 8px;
+  color: #ffffff;
+  background-color: #42b883;
+  font: inherit;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #369870;
+}
